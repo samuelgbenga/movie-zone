@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,KACE,QAAS,CACT,SAAU,CACV,qBAAsB,CACtB,wDAAqC,CACrC,iBACF","file":"main.78ffe7ed.chunk.css","sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n  background: url(../src/assets/bg.svg);\r\n  overflow-x: hidden;\r\n}\r\n"]}
