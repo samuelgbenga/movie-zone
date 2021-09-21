@@ -1,7 +1,7 @@
 {
   "name": "movie-zone",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://gitname.github.io/movie-zone",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",

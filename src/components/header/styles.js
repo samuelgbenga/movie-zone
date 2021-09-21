@@ -15,11 +15,53 @@ const useStyles = makeStyles({
   },
   headerContainer: {
     display: "flex",
-
     alignItems: "center",
     width: "100%",
     justifyContent: "space-between",
     padding: "10px",
   },
+  headerLeft: {
+    display: "flex",
+    padding: "0 20px",
+    cursor: "pointer",
+  },
+  headerTitle: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  muiSvgMovie: {
+    color: "aqua",
+    fontSize: "2.1rem",
+  },
+  headerTitleH3: {
+    fontSize: "2.1rem",
+    fontWeight: 500,
+    marginLeft: "10px",
+  },
+  headerRight: {
+    display: "flex",
+    padding: "5px",
+    alignItems: "center",
+    border: "2px solid aqua",
+    borderRadius: "5px",
+    cursor: "pointer",
+  },
+  muiSvgCloud: {
+    color: "aqua",
+    fontSize: "2.1rem",
+    marginRight: "5px",
+    cursor: "pointer",
+  },
+  button: {
+    padding: "2px",
+    fontSize: "1.1rem",
+    backgroundColor: "transparent",
+    color: "white",
+    outline: "none",
+    border: "none",
+    cursor: "pointer",
+  },
 });
+
 export default useStyles;

@@ -2,31 +2,31 @@ import React from "react";
 import MovieIcon from "@mui/icons-material/Movie";
 // import "./css/Header.css";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import useStyle from "./styles";
 
 const Header = () => {
   const classes = useStyle();
-  const history = useHistory();
+  //   const history = useHistory();
 
   return (
     <div className={classes.root}>
       <div className={classes.headerContainer}>
         <div className={classes.headerLeft}>
           <div
-            onClick={() => history.push("/")}
+            // onClick={() => history.push("/")}
             className={classes.headerTitle}
           >
-            <MovieIcon />
-            <h3>Movie-Zone</h3>
+            <MovieIcon className={classes.muiSvgMovie} />
+            <h3 className={classes.headerTitleH3}>Movie-Zone</h3>
           </div>
         </div>
         <div
-          onClick={() => history.push("/upload")}
+          //   onClick={() => history.push("/upload")}
           className={classes.headerRight}
         >
-          <CloudUploadIcon />
-          <button>Upload</button>
+          <CloudUploadIcon className={classes.muiSvgCloud} />
+          <button className={classes.button}>Upload</button>
         </div>
       </div>
     </div>
